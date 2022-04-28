@@ -1,0 +1,37 @@
+//
+#include <stdio.h>
+
+int com(int a, int b);
+
+int main()
+{
+ printf("%d",com(4,4));
+ return 0;
+}
+ int com(int a, int b)
+ {
+  if(a<b)
+   {
+	if(b>4)
+	{
+	 return 0;
+	}
+
+	else
+	{
+	 return 1;
+	}
+   }
+
+  else
+   {
+	if(a>4)
+	{
+	 return 2;
+	}
+ 	else
+	{
+	 return 3;
+	}
+    }
+ } 
